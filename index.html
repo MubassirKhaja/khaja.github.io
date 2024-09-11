@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khaja's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Khaja Mubassiruddin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Khaja Mubassiruddin">Khaja Mubassiruddin</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Details</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:khaja.mubassiruddin@gmail.com" class="contact-link">khaja.mubassiruddin@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12267592586" class="contact-link">+1 (226) 759-2586</a>
+            </div>
+
+          </li>
+<!-- 
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a passionate Software Engineer with expertise in both backend and full-stack web development.
+          </p>
+
+          <p>
+            With over two years of industry experience, I have built scalable applications and efficient automation solutions. 
+            My skill set spans from API development and data engineering to web scraping and full-stack application creation. 
+            I take pride in delivering high-performance software and collaborating across teams to meet project goals. 
+            Currently, I'm focused on web development and backend engineering, with the aim of building innovative applications that solve real-world problems.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Core Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Development</h4>
+
+                <p class="service-item-text">
+                  MongoDB, Express.js, Node.js, Next.js, React.js, Python Flask, Tailwind CSS
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering & Automation</h4>
+
+                <p class="service-item-text">
+                  Airflow, ETL Pipelines, Web Scraping
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  Python, JavaScript, RESTful API Development, Django, FastAPI
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendations</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Anuj" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anuj Kumar Shukla</h4>
+                
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I've worked closely with Khaja at Hypersonix, and I must say he's truly dedicated, hardworking, and always comes up with innovative ideas.
+                    Khaja has consistently been our go-to person when challenges arise, showing a deep understanding of what's needed, and one of his standout strengths is his ability to simplify complex technical concepts.
+                    Wishing you all the best in your future endeavors.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Arush Sharma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have worked with Khaja in my last organisation and I can vouch for his dedication, team spirit and out of box thinking. Khaja has always been the troubleshooter for the team, he understands requirements well and has good work ethic. 
+                    It was a pleasure working and learning with you 
+                    All the best 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Anuj Kumar Shukla" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Anuj Kumar Shukla</h4>
+
+              <time datetime="2023-12-27">27 December, 2023</time>
+
+              <div data-modal-text>
+
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+    
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Conestoga College | Ontario, Canada </h4>
+
+              <span>Post Graduate Certificate in Web Development</span>
+              <span>May 2023 — Sep 2024</span>
+
+              <p class="timeline-text">
+                Four-semester program with comprehensive training in web-centric business application development. Coursework included back-end programming and front-end technologies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jawaharlal Nehru Tech University | Hyderabad, India</h4>
+
+              <span>Bachelor of Technology in Computer Science Engineering</span>
+              <span>Jul 2017 — Sep 2021</span>
+
+              <p class="timeline-text">
+                Four-year program  with a foundation in the principles of computer science, including mathematics and basic engineering necessary to find answers to the technological issues of modern society. Problem solving skills in design, development and analysis for interpretation and synthesis of data and create awareness for lifelong learning.  Coursework focused on key computer science areas including algorithms, data structures, cryptography, and software engineering.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer - II</h4>
+              
+              <a href="http://www.hypersonix.ai" target="_blank"><span>Hypersonix.ai</span></a>
+              <span>2021 — 2023</span>
+              <ul class="testimonials-list has-scrollbar">
+
+                <li class="testimonials-item">
+                  <h4 class="h5 timeline-item-title">Backend Developer – Hypersonix's AI Platform</h4>
+                  <h3 class="project-title">API Development & Data Integration</h3>
+                  <p class="project-category">Web development
+                  Designed and implemented APIs for seamless data ingestion and retrieval, enabling real-time insights across Hypersonix's AI platform. Collaborated with product management, data science, and frontend teams to enhance data flow and performance.</p>
+                  <br>
+                  <h3 class="project-title">ETL Pipeline Optimization</h3>
+                  <p class="project-category">Streamlined data pipelines using Airflow, reducing data processing time from 47 to 13 minutes by incorporating MemoryMap, multiprocessing, and caching techniques. Decreased failure rate from 40% to less than 2%.</p>
+                  <br>
+                  <h3 class="project-title">Automation & Alerting Systems</h3>
+                  <p class="project-category">Developed a monitoring and alert system using Python to ensure timely processing of critical data loads, enhancing platform reliability and efficiency.</p>
+
+                </li>
+
+                <li class="testimonials-item">
+                  <h4 class="h5 timeline-item-title">Data Engineering and Automation</h4>
+                  <h3 class="project-title">Workflow Orchestration</h3>
+                  <p class="project-category">Utilized Airflow to programmatically author, schedule, and monitor data engineering workflows. Created XML parsers and orchestrated daily truncate-load data pipelines, cleaning, transforming, and ingesting data from SFTP to Snowflake with S3 as a staging area.</p>
+                  <br>
+                  <h3 class="project-title">Performance Enhancements</h3>
+                  <p class="project-category">Refactored DAG tasks to incorporate MemoryMap and multiprocessing, reducing pipeline execution time from 47 to 13 minutes. Enhanced Python scripts by implementing garbage collection, caching, and generators, reducing system resource load and lowering failure rates.</p>
+                </li>
+                <li class="testimonials-item">
+                  <h4 class="h5 timeline-item-title">Integration Automation</h4>
+                  <h3 class="project-title">Data Connectors</h3>
+                  <p class="project-category">Developed automated data connectors for Shopify, Magento, and BigCommerce using Python, Rutter API, and Docker, enabling independent and continuous workflows with minimal human intervention.</p>
+                  <br>
+                  <h3 class="project-title">Data Validation & Profiling</h3>
+                  <p class="project-category">Implemented data validation processes to categorize items as active, inactive, ignore, or high-value low-risk during ingestion. Enhanced data profiling to compute key metrics per customer, including items, stores, channels, revenue, profit, and transactions.</p>
+                </li>
+
+                
+            </li>
+
+
+          </ul>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer - I</h4>
+              <span>Hypersonix.ai</span>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications & Awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <a href="https://drive.google.com/file/d/1kdthV73TuOa4_pTOMgzFZrh9JAqvv0kz/view?usp=sharing" target="_blank"><h4 class="h4 timeline-item-title">Graduation Award Letter - Conestoga</h4></a>
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://drive.google.com/file/d/10Whh2BMPYYDiqCmpndRYryHxwMYuMUwc/view?usp=sharing" target="_blank"><h4 class="h4 timeline-item-title">Letter of Appreciation - MemeChat</h4></a>
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://drive.google.com/file/d/1iopl-zkRxSl_snEcjXWp5unexz8VUMbG/view?usp=sharing" target="_blank"><h4 class="h4 timeline-item-title">Letter of Appreciation - Hypersonix.ai</h4></a>
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://drive.google.com/file/d/1cAl-N5tVs4IEzRuvAITWmqUCInDjs800/view" target="_blank"><h4 class="h4 timeline-item-title">AWS Cloud Practitioner</h4></a>
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://www.coursera.org/account/accomplishments/verify/6FZHLUJLWRJV" target="_blank"><h4 class="h4 timeline-item-title">Google IT Support Specialist</h4></a>
+            </li>
+            <li class="timeline-item">
+
+              <a href="https://drive.google.com/file/d/1DvTpv7aNiPod7CfEqximJJBN2lkJUMJM/view" target="_blank"><h4 class="h4 timeline-item-title">MM Internship Certificate</h4></a>
+            </li>
+            <li class="timeline-item">
+
+              <a href="https://drive.google.com/file/d/1Lh5c-XGJuN7_LUjfR5x9ZwB2kTLISGOk/view" target="_blank"><h4 class="h4 timeline-item-title">Instructor at SplitzLearn Certificate</h4></a>
+            </li>
+
+          </ol>
+          
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+
+              </div>
+              <div class="title-wrapper">
+                <data>Python, JavaScript, PHP, C#(.NET)</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+
+              </div>
+              <div class="title-wrapper">
+                <data>MongoDB, Express.js, Node.js, Next.js, Python Flask, Tailwind CSS, EJS, FastAPI, Django, SQL/NoSQL</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering</h5>
+
+              </div>
+              <div class="title-wrapper">
+                <data>Airflow, ETL Pipelines, Hadoop, Spark, PySpark</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps</h5>
+
+              </div>
+              <div class="title-wrapper">
+                <data> Docker, Kubernetes, AWS</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tools</h5>
+
+              </div>
+              <div class="title-wrapper">
+                <data> Git, CRM (Confluence, JIRA)</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Other</h5>
+
+              </div>
+              <div class="title-wrapper">
+                <data>Agile (SCRUM), Technical Documentation, Client Relationship Management, Project Management</data>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list" data-select>
+
+
+
+            <li class="project-item  active" data-filter-item >
+              <a href="http://15.223.116.12:3000/" target="_blank" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p1.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Employee Scheduling Application (Full-Stack Web App)</h3>
+
+                <p class="project-category">Next.js, Tailwind CSS, Python Flask</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item >
+              <a href="https://github.com/MubassirKhaja/drivers_license_kiosk.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Drivers License Appointment System (Full-Stack Web App)</h3>
+
+                <p class="project-category">MongoDB, Express.js, Node.js, EJS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item >
+              <a href="https://github.com/MubassirKhaja/carewell_scraper.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/scrape.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Carewell E-commerce Web Scraping for Competitor Pricing Analysis</h3>
+
+                <p class="project-category">Python, BeautifulSoup, MechanicalSoup</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item >
+              <a href="https://github.com/MubassirKhaja/WA.Sticker.git" target="_blank">
+
+
+                <h3 class="project-title">Sticker Creation Bot for WhatsApp</h3>
+
+                <p class="project-category">openWA, NodeJS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+
+
+                <h3 class="project-title">Text Message Functionality for Invoice Billing</h3>
+
+                <p class="project-category">Python, HTTP Gateway, APIs</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+          <h3 class="h4 timeline-item-title">Uncovering Security Vulnerabilities</h3>
+          <h4 class="about-text">
+             My Experience with MemeChat and TataSky
+            As technology advances, ensuring the security of applications and platforms has become a critical priority. My passion for cybersecurity led me to dive deeper into vulnerability research, and during this journey, I made some impactful discoveries while analyzing MemeChat and TataSky.
+          </h4>
+          <br>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/vulnerability.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Security</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-04-27">Apr 27, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MemeChat: Protecting User Privacy</h3>
+
+                  <p class="blog-text">
+                    In my security research for MemeChat, a popular platform for meme sharing and creation, I uncovered a significant vulnerability in its API endpoints. The flaw allowed unauthorized access to sensitive user data, potentially exposing users' personal information and compromising their privacy. Upon identifying this breach, I took immediate steps to report it to MemeChat's development team.
+
+                    <br>
+                    My contribution was recognized by the MemeChat team, earning me a Letter of Appreciation for identifying this critical flaw and helping improve the platform's overall security.
+                    
+                    
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/bypass.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Security</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-04-27">Apr 27, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">TataSky: Bypassing Premium Channel Access</h3>
+
+                  <p class="blog-text">
+                    While analyzing the TataSky DTH (Direct-To-Home) satellite TV platform, I uncovered a vulnerability that allowed unauthorized access to premium and paid channels without an active subscription. By hijacking session tokens, I demonstrated how attackers could exploit the vulnerability to view premium content, including Hotstar channels, for free.
+                    <br>
+                    <br>
+                    
+                    Key Highlights:
+                    <br>
+                    
+                    Detected a session token hijacking vulnerability that allowed unauthorized access to paid and premium channels.
+                    <br>
+                    <br>
+                    Demonstrated how the vulnerability could bypass subscription checks, enabling access to restricted content.
+                    <br>
+                    <br>
+                    Coordinated with TataSky's security team to resolve the issue, preventing potential revenue loss and safeguarding the platform from future exploitation.
+                    <br>
+                    <br>
+                    This vulnerability could have caused significant financial damage and user dissatisfaction, but through timely identification and collaboration with the TataSky team, I helped ensure the platform's integrity.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Toronto+(My%20Business%20Name)&amp;t=&amp;z=7&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
